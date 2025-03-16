@@ -1,0 +1,12 @@
+#video {
+    width: 100%;
+    max-width: 500px;
+  }
+  #canvas {
+    display: none;
+  }
+  .color-display {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #000;
+  }
