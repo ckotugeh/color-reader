@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Object Color Reader</title>
+ 
+</head>
+<body>
+  <h1>Object Color Reader</h1>
+
+  <!-- Video Feed -->
+  <video id="video" width="640" height="480" autoplay></video>
+  
+  <!-- Canvas to capture pixel data -->
+  <canvas id="canvas" width="640" height="480"></canvas>
+  
+  <!-- Display captured color -->
+  <div class="color-display">
+    <p><strong>Captured Color:</strong> <span id="colorValue">None</span></p>
+  </div>
+
+  <div>
+    <button onclick="startBarcodeScanner()">Start Barcode Scanner</button>
+    <p id="barcodeValue">No barcode scanned yet.</p>
+  </div>
+
+  <script src="https://unpkg.com/jsbarcode/dist/JsBarcode.all.min.js"></script>
+  <script src="https://unpkg.com/quagga/dist/quagga.min.js"></script>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+  
+</body>
+</html>
+<!-- <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Scanner</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html> -->
