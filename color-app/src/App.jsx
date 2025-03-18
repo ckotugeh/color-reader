@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import ColorScanner from './color-scanner'
 import './App.css'
@@ -14,9 +13,7 @@ function App() {
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        
       </div>
       <h1>Object Color scanner</h1>
       <div className="card">
@@ -24,7 +21,7 @@ function App() {
           count is {count}
         </button>
         <p>
-          The application will used to identy color of any 
+          The application will used to identy color of any object
         </p>
       </div>
       
